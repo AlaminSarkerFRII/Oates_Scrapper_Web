@@ -1,6 +1,6 @@
 from scraper.scrape_quotes import scrape_quotes_from_topic
 from scraper.scrape_topics import scrape_topics
-from database.connections import store_quotes_in_mongodb
+from database.store_data import store_quotes_in_mongodb
 
 
 def scrape_brainyquote_data():
