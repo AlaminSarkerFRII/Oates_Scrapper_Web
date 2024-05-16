@@ -1,21 +1,24 @@
 ## The Web Scrapping Projects 
 
 ```bash 
-
+---------------------------------------------------
 Run with Docker 
+----------------------------------------------------
 
 get projects and clone the project ---
 
 git clone https://github.com/AlaminSarkerFRII/Oates_Scrapper_Web.git
 
-check python installation in your system
+check python3 installation in your system
 
 
-Run docker compose up --build -d
+Run docker compose up --build -d 
+check urls - http://0.0.0.0:8000/ && http://0.0.0.0:8000/docs
 
 
 ------------------------------------------------
-
+Run Manually
+------------------------------------------------
 
 Open your Terminal
 -RUN git clone https://github.com/AlaminSarkerFRII/Oates_Scrapper_Web.git
