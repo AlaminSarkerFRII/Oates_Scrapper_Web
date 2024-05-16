@@ -35,7 +35,7 @@ async def read_all_topics():
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
-# ===========>  create Topics ( posted but not saved in db ) =========>
+# ===========>  create Topics ( posted ) =========>
 
 @app.post("/topics/create")
 async def create_topic(topics: Topics):
@@ -115,7 +115,7 @@ async def read_all_quotes():
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
-# ============> Quotes create ( solved created but not saved in db)  ==============>
+# ============> Quotes create ( solved)  ==============>
 
 @app.post("/quotes/create/",)
 async def create_quote(quote: Quotes):
